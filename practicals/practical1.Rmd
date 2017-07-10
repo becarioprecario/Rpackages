@@ -1,0 +1,38 @@
+---
+title: "Practical 1: Introduction to R packages"
+author: "Virgilio Gómez-Rubio"
+date: ""
+output: pdf_document
+---
+
+## Introduction
+
+In this practical you will learn:
+
+* The basic structure of `R` packages.
+
+* How to create a simple `R` package.
+
+
+## A simple `R` package
+
+Given two vector $x = (x_1, \ldots, x_n)$ and $y=(y_1, \ldots, y_n)$ of length $n$, their inner product
+is defined as:
+
+$$
+<x, y> = \sum_{i=1}^n x_i \cdot y_i
+$$
+
+1. Write a simple function to compute the inner product:
+
+    * The function will take two arguments (`x` and `y`).
+
+    * The function must return a single value (i.e., the inner product).
+
+2. Use `devtools` to create a simple package with this function:
+
+    * Create the basic structure of the package.
+
+    * Write the manual page of the function, inclusing a simple example.
+
+3. Check the command to fix possible errors.

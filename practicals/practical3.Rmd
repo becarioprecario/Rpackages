@@ -1,0 +1,27 @@
+---
+title: "Practical 3: `R`function using `C` code"
+author: "Virgilio Gómez-Rubio"
+date: ""
+output: pdf_document
+---
+
+## Introduction
+
+In this practical you will learn:
+
+* How to include short functions in `C` to be called from `R` 
+
+
+## `C` implementation of the function
+
+1. Write a short `C` program to implement the inner product.
+
+2. Add the `C` code to the `src` directory.
+
+3. Create another function to call the `C` code to compute the
+
+3. Check the package again to fix errors and missing stuff.
+
+4. Install the package and check the function.
+
+5. (Optional) Use Travis CI to check the package.

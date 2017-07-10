@@ -1,0 +1,43 @@
+---
+title: "Practical 4: Introduction to Rcpp"
+author: "Virgilio Gómez-Rubio"
+date: ""
+output: pdf_document
+---
+
+## Introduction
+
+In this practical you will learn:
+
+* How to use Rcpp to include functions in R.
+
+
+## `C` implementation of the function
+
+1. Use Rcpp to write another function for the inner product.
+
+2. Check the package again to fix errors and missing stuff.
+
+3. Install the package and check the function.
+
+4. Compare the `R`, `C` and `Rcpp` implementations using vectors
+of different sizes (e.g., 100000).
+
+## `C++` code for inner product
+
+```
+double innerprod (NumericVector x, NumericVector y) {
+  int n = x.size(); //Perhaps check that x.size() == y.size()...
+  double iprod = 0;
+
+  for(int i = 0; i++ ; i < n) {
+    iprod += x[i] * y[i];
+  }
+
+  return iprod;
+}
+
+
+
+```
+

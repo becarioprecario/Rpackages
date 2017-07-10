@@ -1,0 +1,34 @@
+---
+title: "Practical 2: Advanced documentation"
+author: "Virgilio Gómez-Rubio"
+date: ""
+output: pdf_document
+---
+
+## Introduction
+
+In this practical you will learn:
+
+* How to use Sweave and R markdown.
+
+* How to develop vignettes for `R` packages.
+
+
+## Creating vignettes
+
+1. Create a simple vignette using Sweave with the following:
+
+    * The definition of the inner product.
+
+    * A simple example
+
+2. Include the vignette in the right directory.
+
+3. Test the package with the new vignette (and fix errors).
+
+4. Install the package and load the vignette.
+
+5. Write another short vignette using R markdown and repeat the previous steps.
+
+
+
