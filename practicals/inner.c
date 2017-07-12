@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-double inner(double x, double y, int n) {
+double inner(NumericVector x, Numeric Vector y, int n) {
   double res = 0;
 
   int i;

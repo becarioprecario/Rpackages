@@ -1,5 +1,5 @@
 ---
-title: "Practical 3: `R`function using `C` code"
+title: "Practical 3: `R` function using `C` code"
 author: "Virgilio Gómez-Rubio"
 date: ""
 output: pdf_document
