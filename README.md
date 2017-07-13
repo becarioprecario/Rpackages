@@ -10,4 +10,9 @@ Two-day course on hw to make `R` packages. Loosely based on the examples in:
 
 *  [D. Eddelbuettel (2013). Seamless R and C++ Integration with Rcpp. Springer.](http://www.rcpp.org/book/)
 
+Check also the following example packages:
+
+* [sumR](https://github.com/becarioprecario/sumR)
+
+* [sumRcpp](https://github.com/becarioprecario/sumRcpp)
 

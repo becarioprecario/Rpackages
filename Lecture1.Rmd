@@ -155,7 +155,7 @@ Install the '-dev' version of `R` and associated packages.
 
 * Datasets
 
-* Vignettes and ther documentation
+* Vignettes and other documentation
 
 * Tests
 

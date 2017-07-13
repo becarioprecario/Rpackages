@@ -298,8 +298,8 @@ different OS's and architectures.
 
 * Tests can be run with `devtools::test()`.
 
-* In order to set up the directories to use `testthat`package, we can
-use `devtools::use_tetthat()`.
+* In order to set up the directories to use `testthat` package, we can
+use `devtools::use_testthat()`.
 
 * File `mypkg/tests/testthat.R` will run all the tests under `mypkg/tests/testthat` when the package is checked.
 
